@@ -1,0 +1,79 @@
+.chat {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.chat__title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.chat__messages {
+  min-height: 300px;
+  margin-bottom: 1rem;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+}
+
+.chat__message-row {
+  margin-bottom: 0.75rem;
+}
+
+.chat__form {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.chat__input {
+  flex: 5;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.chat__input:focus {
+  border-color: #7b68ee;
+  box-shadow: 0 0 5px rgba(123, 104, 238, 0.5);
+  outline: none;
+}
+
+.chat__btn {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: #7b68ee;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.chat__btn:hover {
+  background-color: #6a5acd;
+  transform: translateY(-2px);
+}
+
+.chat__btn:active {
+  transform: scale(0.98);
+}
+
+/* RAG pill */
+.chat__source-pill {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.65rem;
+  margin-left: 3.2rem;
+  margin-top: 0.25rem;
+}
