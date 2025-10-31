@@ -32,7 +32,7 @@ This explains **how the request travels** through the app and **where the files 
 
 Screenshot of the Supabase table where the TechNova FAQ/policy text is stored:
 
-![Supabase table](docs/supabase-table.png)
+![Supabase table](docs-supabase-table.png)
 
 ---
 
