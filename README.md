@@ -9,7 +9,7 @@ Tools I used in this small full-stack project to build a **document-grounded cha
 - **LLM:** Local Ollama (`llama3.1:8b`)
 - **UI Components:** Local packages in `packages/base/*` (School-- basic style)
 
-This explains **how the request travels** through the app and **where the files live** It makes easier to follow the code.
+This explains **how the request travels** through the app and **where the files live** making it easier to follow the code.
 
 ---
 
