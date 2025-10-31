@@ -1,4 +1,3 @@
-// packages/core/api/lib/chain.js
 // Enkel QA-kedja utan onödig komplexitet: fråga → hämta docs → svara → källor
 
 import { StringOutputParser } from "@langchain/core/output_parsers";

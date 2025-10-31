@@ -1,4 +1,3 @@
-// packages/core/api/ingest/ingestFaq.js
 import "dotenv/config";
 import fs from "node:fs/promises";
 import path from "node:path";

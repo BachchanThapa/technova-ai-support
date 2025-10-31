@@ -1,4 +1,3 @@
-// packages/core/api/lib/retriever.js
 import "dotenv/config";
 import { createClient } from "@supabase/supabase-js";
 import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase";

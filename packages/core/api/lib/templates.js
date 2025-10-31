@@ -1,4 +1,3 @@
-// packages/core/api/lib/templates.js
 import {
   PromptTemplate,
   ChatPromptTemplate,
