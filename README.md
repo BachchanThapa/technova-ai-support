@@ -1,19 +1,19 @@
 # technova-ai-support
 # TechNova Chat 🗨️
 
-A small full-stack demo that shows how to build a **document-grounded chatbot** for TechNova AB.
+Tools I used in this small full-stack project to build a **document-grounded chatbot** for TechNova AB.
 
 - **Frontend:** Vite + React
 - **Backend:** Express (in `packages/core/api`)
 - **RAG / Search:** Supabase (`documents` table + `match_documents` RPC)
 - **LLM:** Local Ollama (`llama3.1:8b`)
-- **UI Components:** Local packages in `packages/base/*` (teacher’s style)
+- **UI Components:** Local packages in `packages/base/*` (School-- basic style)
 
-This README explains **how the request travels** through the app and **where the files live** so the teacher can follow the code.
+This explains **how the request travels** through the app and **where the files live** It makes easier to follow the code.
 
 ---
 
-## 📐  Ideas
+## 🔁 How the chat works
 
 1. User types a question in the **React chat UI**.
 2. Frontend sends `POST /rag/chat` to the **Express API**.
@@ -26,6 +26,13 @@ This README explains **how the request travels** through the app and **where the
 5. React shows:
    - the assistant bubble
    - **`Source: TechNova FAQ`** (so we can prove it came from our document)
+
+---
+## 📸 Supabase table
+
+Screenshot of the Supabase table where the TechNova FAQ/policy text is stored:
+
+![Supabase table](docs/supabase-table.png)
 
 ---
 
